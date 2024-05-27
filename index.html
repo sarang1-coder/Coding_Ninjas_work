@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <section class="container center">
+            <div class="main">
+                <header class="header">
+                    <h1><u>Survey Form</u></h1><br />
+                    <p>Feel Free to Answer The Questions Below Based On Your
+                        Own
+                        Expextations And Options.If You Are Not Convenient
+                        in
+                        Answering A Particular Question Please Skip it.</p>
+                    <br />
+                </header>
+                <form>
+                    <div class="flex-container">
+                        <div class="items left">
+                            <div class="items">
+                                <label><b>Your Name</b></label><br />
+                                <input type="text" name="name"
+                                    placeholder="Enter Your Name" />
+                            </div>
+                            <div class="items">
+                                <label><b>Your Email Address</b></label><br />
+                                <input type="email" name="email"
+                                    placeholder="user@user.com" />
+                            </div>
+                            <div class="items">
+                                <label><b>Your Phone Number</b></label><br />
+                                <input type="number" name="phNo"
+                                    placeholder="999999999" />
+                            </div>
+                            <div class="items">
+                                <label><b>Where do You Live</b></label><br />
+                                <select name="city" id="city">
+                                    <option value="pune"
+                                        selected>Pune</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="delhi">Delhi</option>
+                                    <option value="nagpur">Nagpur</option>
+                                </select>
+                            </div>
+
+                            <div class="items age">
+                                <form>
+                                    <fieldset>
+                                        <legend>Age</legend>
+                                        <div class="age">
+                                            <div class="age-left-section">
+
+                                                <input type="radio" id="first"
+                                                    name="age" value="15-20"
+                                                    checked>
+                                                <label for="first">15-20</label>
+
+                                                <input type="radio" id="second"
+                                                    name="age" value="20-30">
+                                                <label
+                                                    for="second">20-30</label>
+
+                                                <input type="radio" id="third"
+                                                    name="age" value="31-40">
+                                                <label
+                                                    for="third">31-40</label></div>
+
+                                            <div class="age-right-section">
+                                                <input type="radio" id="fifth"
+                                                    name="age" value="41-50">
+                                                <label for="fifth">41-50</label>
+
+                                                <input type="radio"
+                                                    id="noprefer"
+                                                    name="age"
+                                                    value="noprefer">
+                                                <label for="noprefer">Prefer not
+                                                    to
+                                                    say</label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+
+                            <div class="items">
+                                <label><b>How would you rate your proficiency in
+                                        coding</b></label><br /><br />
+                                <form>
+                                    <div class="proficiency">
+                                        <div>
+                                            <input type="radio" id="begineer"
+                                                name="proficient"
+                                                value="begineer">
+                                            <label
+                                                for="begineer">Begineer</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio"
+                                                id="intermediate"
+                                                name="proficient"
+                                                value="intermediate">
+                                            <label
+                                                for="intermediate">Intermediate</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="advance"
+                                                name="proficient"
+                                                value="advance">
+                                            <label
+                                                for="advance">Advance</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="items right">
+                            <div class="items appereance">
+                                <div>
+                                    <label><b>Have you Appeared in coding
+                                            test</b></label><br /><br />
+                                </div>
+
+                                <div>
+                                    <input type="radio" name="appeared"
+                                        id="yes" />
+                                    <label for="yes">Yes</label>
+                                </div>
+                                <br />
+                                <div>
+                                    <input type="radio" name="appeared"
+                                        id="no" />
+                                    <label for="no">No</label>
+                                </div>
+                            </div>
+                            <div class="items passion">
+                                <label for="passion"><b>Discuss what drives your
+                                        passion for coding and your
+                                        inspiration</b></label><br /><br />
+                                <textarea name="passion"
+                                    id="passion" rows="4"
+                                    cols="60">Enter your response</textarea>
+                            </div>
+                            <div class="items">
+                                <label for="challenges"><b>What are some of the
+                                        challenges you
+                                        face while
+                                        coding?</b></label><br /><br />
+                                <textarea name="challenges"
+                                    id="challenges" rows="4"
+                                    cols="60">Enter your response</textarea>
+                            </div>
+                            <div class="items">
+                                <label for="understanding"><b>Please list the
+                                        data structure you
+                                        have strong understanding
+                                        of</b></label><br /><br />
+                                <textarea name="understanding"
+                                    id="understanding" rows="4"
+                                    cols="60">Enter your response</textarea>
+                            </div>
+                            <div class="items">
+                                <input type="submit" id="submit-btn"
+                                    name="submit-btn"
+                                    value="Submit Form" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
